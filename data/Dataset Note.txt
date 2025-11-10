@@ -1,0 +1,7 @@
+Here, If I upload the dataset on GitHub it will shows:
+
+Yowza, that’s a big file. Try again with a file smaller than 25MB.
+
+Therefore, please manually download the data on the website:
+
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
