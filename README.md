@@ -12,12 +12,6 @@ Then, activate the virtual environment. Here, since my desktop is Window system 
 .\hw_3_env\Scripts\Activate
 ```
 
-If you are in macOS then run:
-
-```bash
-source hw_3_env/bin/activate
-```
-
 Once activated, your prompt should have the (hw_3_env) in the beginning such as:
 
 ```bash
