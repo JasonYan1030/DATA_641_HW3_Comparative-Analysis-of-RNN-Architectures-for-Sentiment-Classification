@@ -74,4 +74,4 @@ It is a little bit messy to see individual file, so I organize everything in a "
 python main.py
 ```
 
-Then it will run the code.
+Then it will run the code. Here, if you plan to run the code, please delete the "evaluation_summary" table in the result/ folder and all the plots in the result/plots/ folder before.
