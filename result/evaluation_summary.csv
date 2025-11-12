@@ -1,0 +1,163 @@
+Architecture,Activation,Optimizer,Sequence_Length,Gradient_Clip,Accuracy,F1_Score,Avg_Epoch_Time(s),Total_Train_Time(s)
+RNN,sigmoid,adam,25,No,0.6515,0.6828,1.42,30.16
+RNN,sigmoid,adam,50,No,0.5483,0.602,1.39,28.71
+RNN,sigmoid,adam,100,No,0.5264,0.5511,1.64,30.18
+RNN,sigmoid,adam,25,Yes,0.6673,0.6756,1.58,29.6
+RNN,sigmoid,adam,50,Yes,0.6972,0.7003,1.56,29.52
+RNN,sigmoid,adam,100,Yes,0.6791,0.678,1.74,30.87
+RNN,sigmoid,sgd,25,No,0.4982,0.5028,1.29,28.22
+RNN,sigmoid,sgd,50,No,0.5038,0.4768,1.28,28.13
+RNN,sigmoid,sgd,100,No,0.5006,0.5497,1.42,28.69
+RNN,sigmoid,sgd,25,Yes,0.4988,0.5221,1.5,29.56
+RNN,sigmoid,sgd,50,Yes,0.5031,0.5326,1.45,29.48
+RNN,sigmoid,sgd,100,Yes,0.5078,0.5162,1.55,29.44
+RNN,sigmoid,rmsprop,25,No,0.6562,0.6725,1.49,29.2
+RNN,sigmoid,rmsprop,50,No,0.6462,0.6241,1.48,29.88
+RNN,sigmoid,rmsprop,100,No,0.6366,0.6784,1.62,30.66
+RNN,sigmoid,rmsprop,25,Yes,0.674,0.6667,1.5,29.26
+RNN,sigmoid,rmsprop,50,Yes,0.6934,0.6876,1.63,30.7
+RNN,sigmoid,rmsprop,100,Yes,0.691,0.6852,1.9,32.61
+RNN,relu,adam,25,No,0.6576,0.6367,1.5,29.97
+RNN,relu,adam,50,No,0.6075,0.6627,1.4,28.57
+RNN,relu,adam,100,No,0.5217,0.6481,1.54,29.45
+RNN,relu,adam,25,Yes,0.6771,0.6946,1.72,31.37
+RNN,relu,adam,50,Yes,0.6816,0.6865,1.53,29.7
+RNN,relu,adam,100,Yes,0.6247,0.5726,1.7,30.07
+RNN,relu,sgd,25,No,0.5005,0.4845,1.29,28.16
+RNN,relu,sgd,50,No,0.5052,0.4852,1.3,28.39
+RNN,relu,sgd,100,No,0.4995,0.4932,1.48,29.36
+RNN,relu,sgd,25,Yes,0.5028,0.513,1.48,29.53
+RNN,relu,sgd,50,Yes,0.4993,0.4938,1.36,28.67
+RNN,relu,sgd,100,Yes,0.5044,0.502,1.55,29.66
+RNN,relu,rmsprop,25,No,0.6694,0.6768,1.52,30.33
+RNN,relu,rmsprop,50,No,0.6593,0.6617,1.56,30.79
+RNN,relu,rmsprop,100,No,0.6402,0.6439,1.62,31.31
+RNN,relu,rmsprop,25,Yes,0.6924,0.7124,1.92,33.04
+RNN,relu,rmsprop,50,Yes,0.6902,0.6954,1.86,32.01
+RNN,relu,rmsprop,100,Yes,0.6782,0.6768,1.93,32.47
+RNN,tanh,adam,25,No,0.5596,0.5333,1.54,30.39
+RNN,tanh,adam,50,No,0.5807,0.6017,1.53,29.83
+RNN,tanh,adam,100,No,0.5891,0.6221,1.55,29.89
+RNN,tanh,adam,25,Yes,0.6747,0.669,1.65,30.35
+RNN,tanh,adam,50,Yes,0.6979,0.6951,1.74,31.25
+RNN,tanh,adam,100,Yes,0.6737,0.6383,1.86,31.42
+RNN,tanh,sgd,25,No,0.4989,0.5017,1.23,28.43
+RNN,tanh,sgd,50,No,0.5006,0.5056,1.22,27.93
+RNN,tanh,sgd,100,No,0.5032,0.5154,1.39,28.77
+RNN,tanh,sgd,25,Yes,0.4998,0.5084,1.52,29.76
+RNN,tanh,sgd,50,Yes,0.5025,0.5004,1.45,29.46
+RNN,tanh,sgd,100,Yes,0.5019,0.5186,1.63,30.5
+RNN,tanh,rmsprop,25,No,0.679,0.6892,1.47,29.43
+RNN,tanh,rmsprop,50,No,0.6448,0.6774,1.42,29.49
+RNN,tanh,rmsprop,100,No,0.6269,0.5974,1.66,30.69
+RNN,tanh,rmsprop,25,Yes,0.6899,0.7072,1.63,30.83
+RNN,tanh,rmsprop,50,Yes,0.6949,0.7058,1.61,30.15
+RNN,tanh,rmsprop,100,Yes,0.6552,0.6577,1.77,30.94
+LSTM,sigmoid,adam,25,No,0.7201,0.7142,1.59,30.27
+LSTM,sigmoid,adam,50,No,0.6325,0.5986,1.61,30.16
+LSTM,sigmoid,adam,100,No,0.7237,0.7379,1.75,30.97
+LSTM,sigmoid,adam,25,Yes,0.7177,0.7276,1.75,30.86
+LSTM,sigmoid,adam,50,Yes,0.7642,0.7581,1.76,31.02
+LSTM,sigmoid,adam,100,Yes,0.792,0.7892,1.9,31.58
+LSTM,sigmoid,sgd,25,No,0.4993,0.6602,1.44,29.67
+LSTM,sigmoid,sgd,50,No,0.5,0.6667,1.36,29.17
+LSTM,sigmoid,sgd,100,No,0.5022,0.4565,1.54,29.97
+LSTM,sigmoid,sgd,25,Yes,0.4998,0.6647,1.71,30.7
+LSTM,sigmoid,sgd,50,Yes,0.5,0.6667,1.49,29.81
+LSTM,sigmoid,sgd,100,Yes,0.4996,0.0289,1.69,30.6
+LSTM,sigmoid,rmsprop,25,No,0.7206,0.7272,1.76,31.76
+LSTM,sigmoid,rmsprop,50,No,0.7609,0.7599,1.69,31.21
+LSTM,sigmoid,rmsprop,100,No,0.7646,0.7276,1.61,30.98
+LSTM,sigmoid,rmsprop,25,Yes,0.7208,0.7338,1.77,31.41
+LSTM,sigmoid,rmsprop,50,Yes,0.7678,0.7667,1.78,31.3
+LSTM,sigmoid,rmsprop,100,Yes,0.7722,0.804,1.96,32.45
+LSTM,relu,adam,25,No,0.724,0.7259,1.61,30.56
+LSTM,relu,adam,50,No,0.7683,0.766,1.74,31.98
+LSTM,relu,adam,100,No,0.761,0.7603,1.64,30.51
+LSTM,relu,adam,25,Yes,0.7207,0.7249,1.69,30.57
+LSTM,relu,adam,50,Yes,0.7612,0.7591,1.95,32.56
+LSTM,relu,adam,100,Yes,0.8136,0.817,2.04,33.03
+LSTM,relu,sgd,25,No,0.5053,0.472,1.67,31.54
+LSTM,relu,sgd,50,No,0.4948,0.5238,1.53,30.88
+LSTM,relu,sgd,100,No,0.5039,0.5038,1.63,31.69
+LSTM,relu,sgd,25,Yes,0.5028,0.5366,1.73,31.71
+LSTM,relu,sgd,50,Yes,0.5062,0.4753,1.5,30.18
+LSTM,relu,sgd,100,Yes,0.5033,0.5278,1.65,30.62
+LSTM,relu,rmsprop,25,No,0.7166,0.7359,1.48,29.1
+LSTM,relu,rmsprop,50,No,0.7566,0.7771,1.44,29.03
+LSTM,relu,rmsprop,100,No,0.7692,0.7537,1.62,30.02
+LSTM,relu,rmsprop,25,Yes,0.7192,0.7374,1.64,30.09
+LSTM,relu,rmsprop,50,Yes,0.7652,0.779,1.61,29.88
+LSTM,relu,rmsprop,100,Yes,0.7993,0.7951,1.77,30.77
+LSTM,tanh,adam,25,No,0.7198,0.7156,1.5,29.29
+LSTM,tanh,adam,50,No,0.7626,0.7582,1.46,28.96
+LSTM,tanh,adam,100,No,0.795,0.802,1.66,30.16
+LSTM,tanh,adam,25,Yes,0.722,0.7243,1.9,31.69
+LSTM,tanh,adam,50,Yes,0.7683,0.7671,1.74,31.31
+LSTM,tanh,adam,100,Yes,0.8091,0.8104,1.87,31.82
+LSTM,tanh,sgd,25,No,0.5069,0.5477,1.53,29.86
+LSTM,tanh,sgd,50,No,0.506,0.5518,1.36,29.02
+LSTM,tanh,sgd,100,No,0.4997,0.5057,1.56,30.01
+LSTM,tanh,sgd,25,Yes,0.5023,0.5043,1.68,30.84
+LSTM,tanh,sgd,50,Yes,0.5034,0.5295,1.55,29.96
+LSTM,tanh,sgd,100,Yes,0.4987,0.4478,1.73,30.95
+LSTM,tanh,rmsprop,25,No,0.714,0.6818,1.52,30.04
+LSTM,tanh,rmsprop,50,No,0.7441,0.7661,1.52,30.09
+LSTM,tanh,rmsprop,100,No,0.7473,0.6939,1.64,30.91
+LSTM,tanh,rmsprop,25,Yes,0.7183,0.7071,1.71,31.25
+LSTM,tanh,rmsprop,50,Yes,0.7627,0.773,1.72,31.3
+LSTM,tanh,rmsprop,100,Yes,0.8042,0.8163,1.85,31.79
+Bidirectional LSTM,sigmoid,adam,25,No,0.7247,0.712,2.1,32.8
+Bidirectional LSTM,sigmoid,adam,50,No,0.7631,0.7796,2.08,32.8
+Bidirectional LSTM,sigmoid,adam,100,No,0.7851,0.7805,2.24,33.77
+Bidirectional LSTM,sigmoid,adam,25,Yes,0.7159,0.7441,2.27,33.82
+Bidirectional LSTM,sigmoid,adam,50,Yes,0.7556,0.7282,2.23,33.75
+Bidirectional LSTM,sigmoid,adam,100,Yes,0.8124,0.8196,2.44,34.98
+Bidirectional LSTM,sigmoid,sgd,25,No,0.5,0.0,1.85,32.32
+Bidirectional LSTM,sigmoid,sgd,50,No,0.5094,0.5359,1.81,31.71
+Bidirectional LSTM,sigmoid,sgd,100,No,0.5,0.0,2.08,33.3
+Bidirectional LSTM,sigmoid,sgd,25,Yes,0.5013,0.6536,2.05,32.32
+Bidirectional LSTM,sigmoid,sgd,50,Yes,0.5005,0.2348,2.07,32.57
+Bidirectional LSTM,sigmoid,sgd,100,Yes,0.5,0.6667,2.66,37.95
+Bidirectional LSTM,sigmoid,rmsprop,25,No,0.7238,0.7366,2.03,32.89
+Bidirectional LSTM,sigmoid,rmsprop,50,No,0.7615,0.7854,1.99,32.56
+Bidirectional LSTM,sigmoid,rmsprop,100,No,0.807,0.8229,2.24,33.84
+Bidirectional LSTM,sigmoid,rmsprop,25,Yes,0.7191,0.6987,2.23,33.53
+Bidirectional LSTM,sigmoid,rmsprop,50,Yes,0.7689,0.7727,2.13,33.19
+Bidirectional LSTM,sigmoid,rmsprop,100,Yes,0.8135,0.8223,2.38,34.44
+Bidirectional LSTM,relu,adam,25,No,0.7201,0.728,2.01,32.44
+Bidirectional LSTM,relu,adam,50,No,0.7728,0.7703,2.14,33.56
+Bidirectional LSTM,relu,adam,100,No,0.8163,0.8115,2.19,33.62
+Bidirectional LSTM,relu,adam,25,Yes,0.7138,0.7289,2.37,34.36
+Bidirectional LSTM,relu,adam,50,Yes,0.7678,0.7741,2.23,33.79
+Bidirectional LSTM,relu,adam,100,Yes,0.8157,0.8258,2.41,34.58
+Bidirectional LSTM,relu,sgd,25,No,0.5147,0.443,1.97,32.43
+Bidirectional LSTM,relu,sgd,50,No,0.5045,0.4789,1.8,31.49
+Bidirectional LSTM,relu,sgd,100,No,0.5153,0.4885,2.02,32.99
+Bidirectional LSTM,relu,sgd,25,Yes,0.5174,0.549,2.02,32.85
+Bidirectional LSTM,relu,sgd,50,Yes,0.5105,0.5448,1.98,32.72
+Bidirectional LSTM,relu,sgd,100,Yes,0.509,0.5541,2.43,34.77
+Bidirectional LSTM,relu,rmsprop,25,No,0.724,0.7351,1.96,32.51
+Bidirectional LSTM,relu,rmsprop,50,No,0.7672,0.7556,1.93,31.56
+Bidirectional LSTM,relu,rmsprop,100,No,0.8162,0.8222,2.12,33.71
+Bidirectional LSTM,relu,rmsprop,25,Yes,0.7189,0.7185,2.67,36.39
+Bidirectional LSTM,relu,rmsprop,50,Yes,0.7668,0.7767,2.73,37.29
+Bidirectional LSTM,relu,rmsprop,100,Yes,0.8196,0.8206,2.67,36.92
+Bidirectional LSTM,tanh,adam,25,No,0.7186,0.7318,2.16,33.18
+Bidirectional LSTM,tanh,adam,50,No,0.7716,0.7764,2.06,33.12
+Bidirectional LSTM,tanh,adam,100,No,0.814,0.8176,2.28,34.34
+Bidirectional LSTM,tanh,adam,25,Yes,0.7163,0.7243,2.37,35.03
+Bidirectional LSTM,tanh,adam,50,Yes,0.772,0.7741,2.26,34.03
+Bidirectional LSTM,tanh,adam,100,Yes,0.8042,0.7869,2.48,35.6
+Bidirectional LSTM,tanh,sgd,25,No,0.5089,0.5306,1.89,31.77
+Bidirectional LSTM,tanh,sgd,50,No,0.5176,0.6108,2.32,34.19
+Bidirectional LSTM,tanh,sgd,100,No,0.5093,0.5209,2.74,37.42
+Bidirectional LSTM,tanh,sgd,25,Yes,0.513,0.4638,2.66,36.64
+Bidirectional LSTM,tanh,sgd,50,Yes,0.5212,0.5817,2.07,32.86
+Bidirectional LSTM,tanh,sgd,100,Yes,0.5135,0.5297,2.27,34.0
+Bidirectional LSTM,tanh,rmsprop,25,No,0.7219,0.722,1.94,32.09
+Bidirectional LSTM,tanh,rmsprop,50,No,0.7676,0.7791,2.08,33.25
+Bidirectional LSTM,tanh,rmsprop,100,No,0.7928,0.8144,2.06,33.26
+Bidirectional LSTM,tanh,rmsprop,25,Yes,0.7176,0.711,2.1,33.0
+Bidirectional LSTM,tanh,rmsprop,50,Yes,0.7653,0.7808,2.26,33.72
+Bidirectional LSTM,tanh,rmsprop,100,Yes,0.8174,0.8208,2.23,34.12
