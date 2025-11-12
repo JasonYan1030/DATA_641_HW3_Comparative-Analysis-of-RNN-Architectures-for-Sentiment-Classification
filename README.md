@@ -75,3 +75,13 @@ python main.py
 ```
 
 Then it will run the code. Here, if you plan to run the code, please delete the "evaluation_summary" table in the result/ folder and all the plots in the result/plots/ folder before.
+
+## Output file
+
+In the output you will have 2 things:
+
+1. in results/ folder, you will have a table named with "evaluation_summary" in .csv form which holds the result as mentioned in the homework 3 requirement. each row will looks like:
+
+Architecture,Activation,Optimizer,Sequence_Length,Gradient_Clip,Accuracy,F1_Score,Avg_Epoch_Time(s),Total_Train_Time(s)
+
+2. In results/plots/ folder, it will have a total of 216 graphs, which we have a plot of training loss versus epochs graph for each combinations of parameters and architecture. Also, it has a graph of Accuracy & F1 versus Sequence length for every combination of parameters and architecture except the sequence length.
