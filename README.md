@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 Here, I highly suggest that you setup a GPU acceleration. My models are constructed using pytorch and it takes around 2 hours to run once with GPU acceletation. The estimated time of running with CPU only based on the task would be 10-12 hours to run once. I'm not sure why it is so time consuming but given that we have 162 different combination of parameters, it is expected to spend a long time. 
 
-Here, in your activated virtual environment, run the following code to check that if your installed pytorch support GOU acceleration:
+Here, in your activated virtual environment, run the following code to check that if your installed pytorch support GPU acceleration:
 
 ```bash
 python -c "import torch; print('CUDA available:', torch.cuda.is_available()); print('Device name:', torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU only')"
